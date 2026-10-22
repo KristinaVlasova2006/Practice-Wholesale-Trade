@@ -16,6 +16,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Власова Кристина Андреевна</vendor>
+  <version>1.0.0.0</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
