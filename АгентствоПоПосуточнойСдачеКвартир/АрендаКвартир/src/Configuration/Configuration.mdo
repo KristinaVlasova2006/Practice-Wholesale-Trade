@@ -16,6 +16,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Власова Кристина Андреевна</vendor>
+  <version>1.0.0.0</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -34,6 +35,7 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <interfaceCompatibilityMode>Version8_5</interfaceCompatibilityMode>
   <compatibilityMode>8.5.1</compatibilityMode>
   <languages uuid="965a51d7-658f-45b9-a815-4bda4330d996">
     <name>Русский</name>
@@ -43,4 +45,12 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <catalogs>Catalog.Договоры</catalogs>
+  <catalogs>Catalog.Квартиры</catalogs>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <documents>Document.ПродлениеАренды</documents>
+  <documents>Document.СдачаВАренду</documents>
+  <enums>Enum.ВидыДоговоров</enums>
+  <reports>Report.Аренда</reports>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
 </mdclass:Configuration>

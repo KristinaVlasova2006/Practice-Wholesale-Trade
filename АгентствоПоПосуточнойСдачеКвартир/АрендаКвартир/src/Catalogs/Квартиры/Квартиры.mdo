@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d4d0ceb-82b9-4418-bbf6-62442467fd8c">
+  <producedTypes>
+    <objectType typeId="5f687f66-0f74-4ecd-8a2f-a7efd2b4ed6e" valueTypeId="f1393995-a38b-4ee0-9a5b-daed5a6d5d64"/>
+    <refType typeId="5ac839ca-6b96-4e8d-9470-bb61d817dc8e" valueTypeId="d2f57277-85a2-4359-980d-81c0537e38b2"/>
+    <selectionType typeId="c7052ca6-302e-46d5-b5d3-b7ed5374a86b" valueTypeId="bbd8a046-415c-4280-9d00-0abb81fc2e8a"/>
+    <listType typeId="32b11943-bd10-479f-9e3a-3b742417ea79" valueTypeId="9f0e2b97-7914-4267-9baf-e0348561fffc"/>
+    <managerType typeId="8b9ca942-5ac3-4440-8ed4-fddce9b55140" valueTypeId="dbc7e67c-e6e0-45f9-a5ea-ccc5ae64ebf7"/>
+  </producedTypes>
+  <name>Квартиры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Квартиры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Квартиры.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Квартиры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Квартира</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
