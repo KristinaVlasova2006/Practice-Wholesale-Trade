@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="708d5b06-38da-42f3-9430-f72f1ca2c437">
+  <name>АрендаКвартир</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аренда квартир</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="618e531a-6970-4d08-a071-47329c12550b"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="2816d8d8-b66d-455c-b1df-0677557d7fca"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="b30e353a-7e28-41e5-a9bd-eb7e1899d431"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="ce8392d6-7031-44fb-a6f6-ee75ec677ea7"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="915bc8f6-7738-4b1a-b1f4-2d1bd7b24eb5"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="44f592d8-4765-4c28-a9d0-a92876c80e48"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="d18b9448-40f0-4b96-9ecc-81c2cd404965"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Власова Кристина Андреевна</vendor>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <copyright>
+    <key>ru</key>
+    <value>Власова Кристина Андреевна</value>
+  </copyright>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.5.1</compatibilityMode>
+  <languages uuid="965a51d7-658f-45b9-a815-4bda4330d996">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+</mdclass:Configuration>
