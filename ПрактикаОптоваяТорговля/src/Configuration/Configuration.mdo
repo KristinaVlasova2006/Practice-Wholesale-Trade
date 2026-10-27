@@ -45,13 +45,34 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Закупки</subsystems>
+  <subsystems>Subsystem.Настройки</subsystems>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <roles>Role.ДобавлениеИзменениеДокументовПокупки</roles>
+  <roles>Role.ДобавлениеИзменениеКонтрагентов</roles>
+  <roles>Role.ДобавлениеИзменениеНСИ</roles>
+  <roles>Role.ДобавлениеИзменениеДокументовПродажи</roles>
+  <roles>Role.ЗапускВеб_клиента</roles>
+  <roles>Role.ЗапускМобильногоКлиента</roles>
+  <roles>Role.ЗапускТонкогоКлиента</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.СохранениеДанныхВывод</roles>
+  <roles>Role.ЧтениеНСИ</roles>
+  <commonModules>CommonModule.Пользователи</commonModules>
+  <functionalOptions>FunctionalOption.ПоказыватьСклады</functionalOptions>
+  <constants>Constant.УчетПоСкладам</constants>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
   <documents>Document.Покупка</documents>
   <documents>Document.Продажа</documents>
   <enums>Enum.ВидыДоговоров</enums>
+  <enums>Enum.Должности</enums>
   <reports>Report.Продажи</reports>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
