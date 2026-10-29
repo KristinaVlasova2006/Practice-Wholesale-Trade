@@ -62,6 +62,7 @@
   <roles>Role.ЧтениеНСИ</roles>
   <commonModules>CommonModule.Пользователи</commonModules>
   <functionalOptions>FunctionalOption.ПоказыватьСклады</functionalOptions>
+  <constants>Constant.Тест</constants>
   <constants>Constant.УчетПоСкладам</constants>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
