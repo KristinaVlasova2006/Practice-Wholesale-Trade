@@ -12,4 +12,5 @@
   <content>Catalog.Номенклатура</content>
   <content>Document.Покупка</content>
   <content>AccumulationRegister.ОстаткиТоваров</content>
+  <content>Document.УстановкаЦен</content>
 </mdclass:Subsystem>

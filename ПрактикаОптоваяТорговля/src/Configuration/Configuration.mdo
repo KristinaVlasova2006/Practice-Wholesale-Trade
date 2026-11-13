@@ -61,6 +61,7 @@
   <roles>Role.СохранениеДанныхВывод</roles>
   <roles>Role.ЧтениеНСИ</roles>
   <commonModules>CommonModule.Пользователи</commonModules>
+  <commonModules>CommonModule.РаботаСЦенами</commonModules>
   <functionalOptions>FunctionalOption.ПоказыватьСклады</functionalOptions>
   <constants>Constant.Тест</constants>
   <constants>Constant.УчетПоСкладам</constants>
@@ -72,9 +73,13 @@
   <catalogs>Catalog.Сотрудники</catalogs>
   <documents>Document.Покупка</documents>
   <documents>Document.Продажа</documents>
+  <documents>Document.УстановкаЦен</documents>
   <enums>Enum.ВидыДоговоров</enums>
   <enums>Enum.Должности</enums>
+  <enums>Enum.СтавкиНДС</enums>
   <reports>Report.Продажи</reports>
+  <dataProcessors>DataProcessor.ПереносЦенИзСправочника</dataProcessors>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
 </mdclass:Configuration>

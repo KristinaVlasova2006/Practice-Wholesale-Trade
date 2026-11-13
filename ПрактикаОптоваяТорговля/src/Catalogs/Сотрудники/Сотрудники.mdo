@@ -142,6 +142,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="7ba4bff1-976b-4665-904b-5e3faf54e1cf">
+    <name>Изображение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изображение</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="a37da9a9-ad75-46cf-8634-47ab36bcab52">
     <name>ФормаЭлемента</name>
     <synonym>
