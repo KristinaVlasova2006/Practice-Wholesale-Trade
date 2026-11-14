@@ -30,6 +30,7 @@
   <defaultObjectForm>Document.Покупка.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.Покупка.Form.ФормаСписка</defaultListForm>
   <registerRecords>AccumulationRegister.ОстаткиТоваров</registerRecords>
+  <registerRecords>AccumulationRegister.ВзаиморасчётыСПоставщиками</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="9c76ab6f-dd4c-4f05-9f3b-9c5f8b29051b">

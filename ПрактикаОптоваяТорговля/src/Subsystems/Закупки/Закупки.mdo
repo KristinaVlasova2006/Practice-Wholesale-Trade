@@ -13,4 +13,6 @@
   <content>Document.Покупка</content>
   <content>AccumulationRegister.ОстаткиТоваров</content>
   <content>Document.УстановкаЦен</content>
+  <content>Document.ПоступлениеНаРасчётныйСчёт</content>
+  <content>Document.СписаниеСРасчётногоСчёта</content>
 </mdclass:Subsystem>

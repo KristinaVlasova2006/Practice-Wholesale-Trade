@@ -362,9 +362,20 @@
 	</rowsItem>
 	<rowsItem>
 		<index>14</index>
-		<indexTo>15</indexTo>
 		<row>
 			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>15</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>0</f>
+					<tl/>
+				</c>
+			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
