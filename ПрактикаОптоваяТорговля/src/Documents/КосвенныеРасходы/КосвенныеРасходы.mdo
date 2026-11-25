@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3210521-2520-4a1f-923d-4f9de964ae19">
+  <producedTypes>
+    <objectType typeId="dd3a6975-24c9-4df3-ac36-e8d8f2c0ea1f" valueTypeId="f78541e9-0cfe-48be-90fa-51fc78856942"/>
+    <refType typeId="6f45437a-45c5-48b2-98a6-75e394abd07d" valueTypeId="ccd11b00-9a12-4210-9a48-7f75c4e5489e"/>
+    <selectionType typeId="a7d5dcf7-f0bc-4e52-850e-5342c8ad26d6" valueTypeId="d7075997-28c1-4355-98ff-ba6f9e2a4a33"/>
+    <listType typeId="62c86e4a-baee-435c-af3e-39025e1e51ee" valueTypeId="d37b3a9a-2ab3-42f9-842f-172ac67917a2"/>
+    <managerType typeId="48dd2cd6-56ba-41db-93d6-877ea62b85b1" valueTypeId="8d9a6890-009b-4ad2-ba3c-c6cb24f54d10"/>
+  </producedTypes>
+  <name>КосвенныеРасходы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Косвенные расходы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.КосвенныеРасходы.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Косвенные расходы</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.КосвенныеРасходы</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="e4e5cf6e-b3ba-4f3b-9805-b44706b8d504">
+    <name>Месяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="70c7b8ab-1ae7-497d-bd2a-d2851d74c848">
+    <producedTypes>
+      <objectType typeId="1182fe8e-b1c7-4ac3-bfe9-502a78462fde" valueTypeId="8c9afd63-ede6-4b0c-85fa-a76223edb010"/>
+      <rowType typeId="d4567915-cf3f-4cd8-8f9e-4e7a057aed87" valueTypeId="efe1675a-167b-440a-b64a-81ec72bafb07"/>
+    </producedTypes>
+    <name>СписокРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список расходов</value>
+    </synonym>
+    <attributes uuid="c3d3262e-a4cc-4014-8f99-ae5f1a6caa6e">
+      <name>СтатьяРасходов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья расходов</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтатьиРасходов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="86f3669f-2b4f-4611-af6b-4985c5b8fb14">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Document>

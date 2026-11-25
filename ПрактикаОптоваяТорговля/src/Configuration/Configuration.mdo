@@ -71,6 +71,8 @@
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.СтатьиРасходов</catalogs>
+  <documents>Document.КосвенныеРасходы</documents>
   <documents>Document.Покупка</documents>
   <documents>Document.ПоступлениеНаРасчётныйСчёт</documents>
   <documents>Document.Продажа</documents>
@@ -79,11 +81,14 @@
   <enums>Enum.ВидыДоговоров</enums>
   <enums>Enum.Должности</enums>
   <enums>Enum.СтавкиНДС</enums>
+  <reports>Report.АктСверки</reports>
   <reports>Report.Продажи</reports>
+  <reports>Report.ЧистаяПрибыль</reports>
   <dataProcessors>DataProcessor.ПереносЦенИзСправочника</dataProcessors>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ВзаиморасчётыСПокупателем</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ВзаиморасчётыСПоставщиками</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.КосвенныеРасходы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
 </mdclass:Configuration>
